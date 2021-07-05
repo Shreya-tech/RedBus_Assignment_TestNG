@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="26" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="223050" started-at="2021-07-05T15:07:04Z" finished-at="2021-07-05T15:10:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="223050" started-at="2021-07-05T15:07:04Z" finished-at="2021-07-05T15:10:47Z">
+      <class name="tests.NavbarTest">
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.NavbarTest@304bb45b]" name="DriverSetUp" is-config="true" duration-ms="2823" started-at="2021-07-05T20:37:59Z" finished-at="2021-07-05T20:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnBusHire()[pri:0, instance:tests.NavbarTest@304bb45b]" name="ClickOnBusHire" duration-ms="2450" started-at="2021-07-05T20:38:02Z" finished-at="2021-07-05T20:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnBusHire -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.NavbarTest@304bb45b]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T20:38:04Z" finished-at="2021-07-05T20:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnBusHire status=SUCCESS method=NavbarTest.ClickOnBusHire()[pri:0, instance:tests.NavbarTest@304bb45b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.NavbarTest@304bb45b]" name="CloseDriver" is-config="true" duration-ms="627" started-at="2021-07-05T20:38:04Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.NavbarTest@304bb45b]" name="DriverSetUp" is-config="true" duration-ms="2788" started-at="2021-07-05T20:38:05Z" finished-at="2021-07-05T20:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnBusTickets()[pri:0, instance:tests.NavbarTest@304bb45b]" name="ClickOnBusTickets" duration-ms="2550" started-at="2021-07-05T20:38:07Z" finished-at="2021-07-05T20:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnBusTickets -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.NavbarTest@304bb45b]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:38:10Z" finished-at="2021-07-05T20:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnBusTickets status=SUCCESS method=NavbarTest.ClickOnBusTickets()[pri:0, instance:tests.NavbarTest@304bb45b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.NavbarTest@304bb45b]" name="CloseDriver" is-config="true" duration-ms="701" started-at="2021-07-05T20:38:10Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.NavbarTest@304bb45b]" name="DriverSetUp" is-config="true" duration-ms="3257" started-at="2021-07-05T20:38:11Z" finished-at="2021-07-05T20:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnLogo()[pri:0, instance:tests.NavbarTest@304bb45b]" name="ClickOnLogo" duration-ms="689" started-at="2021-07-05T20:38:14Z" finished-at="2021-07-05T20:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogo -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.NavbarTest@304bb45b]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:38:15Z" finished-at="2021-07-05T20:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLogo status=SUCCESS method=NavbarTest.ClickOnLogo()[pri:0, instance:tests.NavbarTest@304bb45b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.NavbarTest@304bb45b]" name="CloseDriver" is-config="true" duration-ms="617" started-at="2021-07-05T20:38:15Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.NavbarTest@304bb45b]" name="DriverSetUp" is-config="true" duration-ms="5279" started-at="2021-07-05T20:38:15Z" finished-at="2021-07-05T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnRPool()[pri:0, instance:tests.NavbarTest@304bb45b]" name="ClickOnRPool" duration-ms="1476" started-at="2021-07-05T20:38:20Z" finished-at="2021-07-05T20:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRPool -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.NavbarTest@304bb45b]" name="CloseDriver" is-config="true" duration-ms="620" started-at="2021-07-05T20:38:22Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.NavbarTest@304bb45b]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:38:22Z" finished-at="2021-07-05T20:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnRPool status=SUCCESS method=NavbarTest.ClickOnRPool()[pri:0, instance:tests.NavbarTest@304bb45b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.NavbarTest@304bb45b]" name="DriverSetUp" is-config="true" duration-ms="6541" started-at="2021-07-05T20:38:23Z" finished-at="2021-07-05T20:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="clickOnCancelTicket()[pri:0, instance:tests.NavbarTest@304bb45b]" name="clickOnCancelTicket" duration-ms="7436" started-at="2021-07-05T20:38:29Z" finished-at="2021-07-05T20:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCancelTicket -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.NavbarTest@304bb45b]" name="CloseDriver" is-config="true" duration-ms="626" started-at="2021-07-05T20:38:37Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.NavbarTest@304bb45b]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:38:37Z" finished-at="2021-07-05T20:38:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCancelTicket status=SUCCESS method=NavbarTest.clickOnCancelTicket()[pri:0, instance:tests.NavbarTest@304bb45b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- tests.NavbarTest -->
+      <class name="tests.BusSeatTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.BusSeatTest@533bda92]" name="setExtent" is-config="true" duration-ms="151" started-at="2021-07-05T20:37:04Z" finished-at="2021-07-05T20:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.BusSeatTest@533bda92]" name="DriverSetUp" is-config="true" duration-ms="5629" started-at="2021-07-05T20:37:04Z" finished-at="2021-07-05T20:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="CheckUIforSeatSelection()[pri:0, instance:tests.BusSeatTest@533bda92]" name="CheckUIforSeatSelection" duration-ms="13032" started-at="2021-07-05T20:37:10Z" finished-at="2021-07-05T20:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckUIforSeatSelection -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.BusSeatTest@533bda92]" name="attachScreenshot" is-config="true" duration-ms="3" started-at="2021-07-05T20:37:23Z" finished-at="2021-07-05T20:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckUIforSeatSelection status=SUCCESS method=BusSeatTest.CheckUIforSeatSelection()[pri:0, instance:tests.BusSeatTest@533bda92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.BusSeatTest@533bda92]" name="CloseDriver" is-config="true" duration-ms="643" started-at="2021-07-05T20:37:23Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.BusSeatTest@533bda92]" name="DriverSetUp" is-config="true" duration-ms="7382" started-at="2021-07-05T20:37:23Z" finished-at="2021-07-05T20:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnHideSeat()[pri:0, instance:tests.BusSeatTest@533bda92]" name="ClickOnHideSeat" duration-ms="12324" started-at="2021-07-05T20:37:31Z" finished-at="2021-07-05T20:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnHideSeat -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.BusSeatTest@533bda92]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:37:43Z" finished-at="2021-07-05T20:37:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnHideSeat status=SUCCESS method=BusSeatTest.ClickOnHideSeat()[pri:0, instance:tests.BusSeatTest@533bda92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.BusSeatTest@533bda92]" name="CloseDriver" is-config="true" duration-ms="637" started-at="2021-07-05T20:37:43Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.BusSeatTest@533bda92]" name="DriverSetUp" is-config="true" duration-ms="5195" started-at="2021-07-05T20:37:44Z" finished-at="2021-07-05T20:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnViewSeat()[pri:0, instance:tests.BusSeatTest@533bda92]" name="ClickOnViewSeat" duration-ms="9077" started-at="2021-07-05T20:37:49Z" finished-at="2021-07-05T20:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnViewSeat -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.BusSeatTest@533bda92]" name="CloseDriver" is-config="true" duration-ms="618" started-at="2021-07-05T20:37:58Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.BusSeatTest@533bda92]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:37:58Z" finished-at="2021-07-05T20:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnViewSeat status=SUCCESS method=BusSeatTest.ClickOnViewSeat()[pri:0, instance:tests.BusSeatTest@533bda92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:tests.BusSeatTest@533bda92]" name="endExtent" is-config="true" duration-ms="191" started-at="2021-07-05T20:40:47Z" finished-at="2021-07-05T20:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- tests.BusSeatTest -->
+      <class name="tests.RebBusCareTest">
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="DriverSetUp" is-config="true" duration-ms="8438" started-at="2021-07-05T20:38:37Z" finished-at="2021-07-05T20:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnDonateAnonymously()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="ClickOnDonateAnonymously" duration-ms="1476" started-at="2021-07-05T20:38:46Z" finished-at="2021-07-05T20:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnDonateAnonymously -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.RebBusCareTest@723ca036]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T20:38:47Z" finished-at="2021-07-05T20:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnDonateAnonymously status=SUCCESS method=RebBusCareTest.ClickOnDonateAnonymously()[pri:0, instance:tests.RebBusCareTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="CloseDriver" is-config="true" duration-ms="584" started-at="2021-07-05T20:38:47Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="DriverSetUp" is-config="true" duration-ms="4343" started-at="2021-07-05T20:38:48Z" finished-at="2021-07-05T20:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnDonateInvalid()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="ClickOnDonateInvalid" duration-ms="1582" started-at="2021-07-05T20:38:52Z" finished-at="2021-07-05T20:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnDonateInvalid -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.RebBusCareTest@723ca036]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:38:54Z" finished-at="2021-07-05T20:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnDonateInvalid status=SUCCESS method=RebBusCareTest.ClickOnDonateInvalid()[pri:0, instance:tests.RebBusCareTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="CloseDriver" is-config="true" duration-ms="621" started-at="2021-07-05T20:38:54Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="DriverSetUp" is-config="true" duration-ms="4754" started-at="2021-07-05T20:38:54Z" finished-at="2021-07-05T20:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="ClickOnRedbusCare()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="ClickOnRedbusCare" duration-ms="2064" started-at="2021-07-05T20:38:59Z" finished-at="2021-07-05T20:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRedbusCare -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="CloseDriver" is-config="true" duration-ms="580" started-at="2021-07-05T20:39:01Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.RebBusCareTest@723ca036]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:39:01Z" finished-at="2021-07-05T20:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnRedbusCare status=SUCCESS method=RebBusCareTest.ClickOnRedbusCare()[pri:0, instance:tests.RebBusCareTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="DriverSetUp" is-config="true" duration-ms="2603" started-at="2021-07-05T20:39:02Z" finished-at="2021-07-05T20:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="DonateAmount()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="DonateAmount" duration-ms="1934" started-at="2021-07-05T20:39:04Z" finished-at="2021-07-05T20:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DonateAmount -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.RebBusCareTest@723ca036]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:39:06Z" finished-at="2021-07-05T20:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DonateAmount status=SUCCESS method=RebBusCareTest.DonateAmount()[pri:0, instance:tests.RebBusCareTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="CloseDriver" is-config="true" duration-ms="587" started-at="2021-07-05T20:39:06Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="DriverSetUp" is-config="true" duration-ms="3835" started-at="2021-07-05T20:39:07Z" finished-at="2021-07-05T20:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="clickOn200Amount()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="clickOn200Amount" duration-ms="1639" started-at="2021-07-05T20:39:11Z" finished-at="2021-07-05T20:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn200Amount -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.RebBusCareTest@723ca036]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:39:12Z" finished-at="2021-07-05T20:39:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOn200Amount status=SUCCESS method=RebBusCareTest.clickOn200Amount()[pri:0, instance:tests.RebBusCareTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.RebBusCareTest@723ca036]" name="CloseDriver" is-config="true" duration-ms="593" started-at="2021-07-05T20:39:12Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- tests.RebBusCareTest -->
+      <class name="tests.SearchTest">
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="2517" started-at="2021-07-05T20:39:13Z" finished-at="2021-07-05T20:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchBusses()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchBusses" duration-ms="8693" started-at="2021-07-05T20:39:15Z" finished-at="2021-07-05T20:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBusses -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="590" started-at="2021-07-05T20:39:24Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:39:24Z" finished-at="2021-07-05T20:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBusses status=SUCCESS method=SearchTest.SearchBusses()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="4330" started-at="2021-07-05T20:39:25Z" finished-at="2021-07-05T20:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchBusseswithInvalidDate()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchBusseswithInvalidDate" duration-ms="7030" started-at="2021-07-05T20:39:29Z" finished-at="2021-07-05T20:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBusseswithInvalidDate -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:39:36Z" finished-at="2021-07-05T20:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBusseswithInvalidDate status=SUCCESS method=SearchTest.SearchBusseswithInvalidDate()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="585" started-at="2021-07-05T20:39:36Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="2608" started-at="2021-07-05T20:39:37Z" finished-at="2021-07-05T20:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchBusseswithInvalidDestination()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchBusseswithInvalidDestination" duration-ms="7316" started-at="2021-07-05T20:39:39Z" finished-at="2021-07-05T20:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBusseswithInvalidDestination -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T20:39:46Z" finished-at="2021-07-05T20:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBusseswithInvalidDestination status=SUCCESS method=SearchTest.SearchBusseswithInvalidDestination()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="596" started-at="2021-07-05T20:39:46Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="2257" started-at="2021-07-05T20:39:47Z" finished-at="2021-07-05T20:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchBusseswithInvalidSourceLocation()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchBusseswithInvalidSourceLocation" duration-ms="7094" started-at="2021-07-05T20:39:49Z" finished-at="2021-07-05T20:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBusseswithInvalidSourceLocation -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="604" started-at="2021-07-05T20:39:56Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:39:56Z" finished-at="2021-07-05T20:39:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBusseswithInvalidSourceLocation status=SUCCESS method=SearchTest.SearchBusseswithInvalidSourceLocation()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="4140" started-at="2021-07-05T20:39:57Z" finished-at="2021-07-05T20:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchModifyByDate()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchModifyByDate" duration-ms="8968" started-at="2021-07-05T20:40:01Z" finished-at="2021-07-05T20:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchModifyByDate -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:40:10Z" finished-at="2021-07-05T20:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchModifyByDate status=SUCCESS method=SearchTest.SearchModifyByDate()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="592" started-at="2021-07-05T20:40:10Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="2579" started-at="2021-07-05T20:40:11Z" finished-at="2021-07-05T20:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchModifyByLocation()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchModifyByLocation" duration-ms="15897" started-at="2021-07-05T20:40:13Z" finished-at="2021-07-05T20:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchModifyByLocation -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T20:40:29Z" finished-at="2021-07-05T20:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchModifyByLocation status=SUCCESS method=SearchTest.SearchModifyByLocation()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="631" started-at="2021-07-05T20:40:29Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.SearchTest@25be7b63]" name="DriverSetUp" is-config="true" duration-ms="2485" started-at="2021-07-05T20:40:30Z" finished-at="2021-07-05T20:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="PASS" signature="SearchModifyBySwipingLocation()[pri:0, instance:tests.SearchTest@25be7b63]" name="SearchModifyBySwipingLocation" duration-ms="14210" started-at="2021-07-05T20:40:32Z" finished-at="2021-07-05T20:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchModifyBySwipingLocation -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.SearchTest@25be7b63]" name="CloseDriver" is-config="true" duration-ms="631" started-at="2021-07-05T20:40:47Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T20:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@25be7b63]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T20:40:47Z" finished-at="2021-07-05T20:40:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchModifyBySwipingLocation status=SUCCESS method=SearchTest.SearchModifyBySwipingLocation()[pri:0, instance:tests.SearchTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
