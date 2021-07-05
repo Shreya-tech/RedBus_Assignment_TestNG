@@ -1,7 +1,6 @@
 package Utils;
 
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.SkipException;
 
 import com.relevantcodes.extentreports.ExtentTest;

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4630" started-at="2021-07-05T15:51:24Z" finished-at="2021-07-05T15:51:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4630" started-at="2021-07-05T15:51:24Z" finished-at="2021-07-05T15:51:29Z">
+      <class name="tests.NavbarTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.NavbarTest@34bde49d]" name="setExtent" is-config="true" duration-ms="57" started-at="2021-07-05T21:21:24Z" finished-at="2021-07-05T21:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="DriverSetUp()[pri:0, instance:tests.NavbarTest@34bde49d]" name="DriverSetUp" is-config="true" duration-ms="2626" started-at="2021-07-05T21:21:24Z" finished-at="2021-07-05T21:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetUp -->
+        <test-method status="FAIL" signature="ClickOnLogo()[pri:0, instance:tests.NavbarTest@34bde49d]" name="ClickOnLogo" duration-ms="1102" started-at="2021-07-05T21:21:27Z" finished-at="2021-07-05T21:21:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:129)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at tests.NavbarTest.ClickOnLogo(NavbarTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogo -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.NavbarTest@34bde49d]" name="attachScreenshot" is-config="true" duration-ms="265" started-at="2021-07-05T21:21:28Z" finished-at="2021-07-05T21:21:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLogo status=FAILURE method=NavbarTest.ClickOnLogo()[pri:0, instance:tests.NavbarTest@34bde49d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:tests.NavbarTest@34bde49d]" name="CloseDriver" is-config="true" duration-ms="595" started-at="2021-07-05T21:21:28Z" depends-on-methods="tests.BaseTest.attachScreenshot" finished-at="2021-07-05T21:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:tests.NavbarTest@34bde49d]" name="endExtent" is-config="true" duration-ms="226" started-at="2021-07-05T21:21:29Z" finished-at="2021-07-05T21:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- tests.NavbarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
