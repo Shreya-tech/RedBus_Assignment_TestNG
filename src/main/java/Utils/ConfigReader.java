@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigReader {
 
 	// Creating variable to connect config.properties file
-	static File file = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\config.properties");
+	static File file = new File(System.getProperty("user.dir").replace("/","\\")+"\\src\\test\\resources\\properties\\config.properties");
 	static FileInputStream fis = null;
 	public static Properties prop = new Properties();
 	static {
