@@ -22,6 +22,7 @@ jobs:
       - run:
           name: Test
           command: mvn clean install
+          command: mvn test
 
 workflows:
   # Below is the definition of your workflow.
