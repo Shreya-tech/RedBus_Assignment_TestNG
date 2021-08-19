@@ -1,10 +1,136 @@
-2021-07-05 21:21:24,484  INFO [main] BaseTest65 - ================= Setting Driver =================
-2021-07-05 21:21:24,486  INFO [main] BaseTest74 - Running without Doker with Headless mode: true	Browser Type: chrome
-2021-07-05 21:21:25,775  INFO [main] BaseTest80 - == opening url
-2021-07-05 21:21:27,115  INFO [main] BaseTest35 - Valid Scenario : Click on Red Bus Logo
-2021-07-05 21:21:28,197  INFO [main] BaseTest52 - RedBusLogo was clicked
-2021-07-05 21:21:28,214  INFO [main] BaseTest95 - **Taking ScreenShot
-2021-07-05 21:21:28,475  INFO [main] BaseTest97 - ScreenShot path is: C:\Users\shreyasaxena\eclipse-workspace\RedBus_Assignment_TestNG/screenshots/ClickOnLogo.png
-2021-07-05 21:21:28,476  INFO [main] BaseTest98 - Screenshot taken
-2021-07-05 21:21:28,479  INFO [main] BaseTest109 - ================= Closing Driver =================
-2021-07-05 21:21:29,073  INFO [main] BaseTest118 - == closed!
+2021-08-19 12:11:09,668  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:11:09,677  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:11:15,080  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:11:22,236  INFO [main] BaseTest121 - ----- Valid scenario : Check whether seat selection canvas is present or not
+2021-08-19 12:11:26,107  INFO [main] CommonFunctions47 - Bus Ticket Link was clicked!
+2021-08-19 12:11:29,316  INFO [main] CommonFunctions51 - From Location was entered
+2021-08-19 12:11:31,664  INFO [main] CommonFunctions55 - To Location was entered
+2021-08-19 12:11:31,815  INFO [main] CommonFunctions59 - Date is selected
+2021-08-19 12:11:31,877  INFO [main] CommonFunctions63 - Search Button is clicked
+2021-08-19 12:11:31,887  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:11:31,984  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/CheckUIforSeatSelection.png
+2021-08-19 12:11:31,985  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:11:31,987  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:11:32,608  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:11:32,611  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:11:32,612  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:11:33,747  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:11:36,478  INFO [main] BaseTest74 - ----- Valid scenario : Check the functionality of HideSeat Button
+2021-08-19 12:11:38,783  INFO [main] CommonFunctions47 - Bus Ticket Link was clicked!
+2021-08-19 12:11:41,608  INFO [main] CommonFunctions51 - From Location was entered
+2021-08-19 12:11:43,955  INFO [main] CommonFunctions55 - To Location was entered
+2021-08-19 12:11:44,034  INFO [main] CommonFunctions59 - Date is selected
+2021-08-19 12:11:44,111  INFO [main] CommonFunctions63 - Search Button is clicked
+2021-08-19 12:11:44,117  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:11:44,201  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/ClickOnHideSeat.png
+2021-08-19 12:11:44,201  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:11:44,201  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:11:44,825  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:11:44,826  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:11:44,827  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:11:45,963  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:11:49,855  INFO [main] BaseTest31 - ----- Valid scenario : Check the functionality of ViewSeat Button
+2021-08-19 12:11:52,899  INFO [main] CommonFunctions47 - Bus Ticket Link was clicked!
+2021-08-19 12:11:55,956  INFO [main] CommonFunctions51 - From Location was entered
+2021-08-19 12:11:58,367  INFO [main] CommonFunctions55 - To Location was entered
+2021-08-19 12:11:58,461  INFO [main] CommonFunctions59 - Date is selected
+2021-08-19 12:11:58,547  INFO [main] CommonFunctions63 - Search Button is clicked
+2021-08-19 12:11:58,555  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:11:58,631  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/ClickOnViewSeat.png
+2021-08-19 12:11:58,632  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:11:58,632  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:11:59,293  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:11:59,295  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:11:59,295  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:12:00,609  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:12:05,404  INFO [main] BaseTest99 - Valid Scenario : Click on Bus Hire Link
+2021-08-19 12:12:10,084  INFO [main] BaseTest116 - Bus Hire Link was clicked
+2021-08-19 12:12:10,320  INFO [main] BaseTest122 - User is on Bus Hire page
+2021-08-19 12:12:10,323  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:12:11,103  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:12:11,104  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:12:11,105  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:12:12,352  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:12:16,537  INFO [main] BaseTest67 - Valid Scenario : Click on Bus Tickets Link
+2021-08-19 12:12:18,852  INFO [main] BaseTest84 - Bus Tickets Link was clicked
+2021-08-19 12:12:19,094  INFO [main] BaseTest90 - User is on Bus Tickets page
+2021-08-19 12:12:19,096  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:12:19,949  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:12:19,950  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:12:19,950  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:12:21,183  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:12:25,195  INFO [main] BaseTest35 - Valid Scenario : Click on Red Bus Logo
+2021-08-19 12:12:27,100  INFO [main] BaseTest52 - RedBusLogo was clicked
+2021-08-19 12:12:27,300  INFO [main] BaseTest58 - User is on Home page
+2021-08-19 12:12:27,303  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:12:28,288  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:12:28,290  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:12:28,291  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:12:30,616  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:12:38,260  INFO [main] BaseTest131 - Valid Scenario : Click on rPool Link
+2021-08-19 12:12:40,420  INFO [main] BaseTest148 - rPool Link was clicked
+2021-08-19 12:12:40,439  INFO [main] BaseTest154 - User is on rPool page
+2021-08-19 12:12:40,441  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:12:41,299  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:12:41,301  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:12:41,301  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:12:42,755  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:12:48,296  INFO [main] BaseTest163 - Valid Scenario : Click on Cancel Ticket Link
+2021-08-19 12:12:52,199  INFO [main] BaseTest180 - Bus Tickets Link was clicked
+2021-08-19 12:12:53,104  INFO [main] BaseTest184 - Cancel Ticket Link was clicked
+2021-08-19 12:12:53,125  INFO [main] BaseTest190 - User is on Cancel Ticket page
+2021-08-19 12:12:53,127  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:12:53,939  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:12:53,940  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:12:53,940  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:12:55,622  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:13:00,148  INFO [main] BaseTest124 - ----- Valid scenario : Click on Donate Anonymously button and check Functionality
+2021-08-19 12:13:00,548  INFO [main] BaseTest141 - Clicked on Red Bus Care Card Link
+2021-08-19 12:13:01,405  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:13:01,583  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/ClickOnDonateAnonymously.png
+2021-08-19 12:13:01,584  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:13:01,585  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:13:02,428  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:13:02,431  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:13:02,432  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:13:03,768  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:13:08,441  INFO [main] BaseTest232 - ----- In-Valid scenario : Clicking on Donate button without entering amount
+2021-08-19 12:13:09,083  INFO [main] BaseTest250 - Clicked on Red Bus Care Card Link
+2021-08-19 12:13:10,001  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:13:10,329  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/ClickOnDonateInvalid.png
+2021-08-19 12:13:10,330  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:13:10,331  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:13:11,364  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:13:11,366  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:13:11,366  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:13:12,722  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:13:16,876  INFO [main] BaseTest36 - ----- Valid scenario : Click on Red Bus Care Link on Home page
+2021-08-19 12:13:17,141  INFO [main] BaseTest53 - Clicked on Red Bus Care Card Link
+2021-08-19 12:13:17,977  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:13:18,127  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/ClickOnRedbusCare.png
+2021-08-19 12:13:18,128  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:13:18,129  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:13:18,926  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:13:18,929  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:13:18,930  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:13:20,367  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:13:24,771  INFO [main] BaseTest172 - ----- Valid scenario : Enter Amount and click on Donate
+2021-08-19 12:13:25,103  INFO [main] BaseTest191 - Clicked on Red Bus Care Card Link
+2021-08-19 12:13:25,724  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:13:25,885  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/DonateAmount.png
+2021-08-19 12:13:25,886  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:13:25,887  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:13:26,727  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:13:26,729  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:13:26,729  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:13:28,165  INFO [main] BaseTest78 - == opening url
+2021-08-19 12:13:34,854  INFO [main] BaseTest74 - ----- Valid scenario : Click on 2000 Amount button and check Functionality
+2021-08-19 12:13:36,384  INFO [main] BaseTest92 - Clicked on Red Bus Care Card Link
+2021-08-19 12:13:37,126  INFO [main] BaseTest93 - **Taking ScreenShot
+2021-08-19 12:13:37,326  INFO [main] BaseTest95 - ScreenShot path is: C:\Users\shreyasaxena\Desktop\github\RedBus_Assignment_TestNG/screenshots/clickOn200Amount.png
+2021-08-19 12:13:37,326  INFO [main] BaseTest96 - Screenshot taken
+2021-08-19 12:13:37,327  INFO [main] BaseTest107 - ================= Closing Driver =================
+2021-08-19 12:13:38,170  INFO [main] BaseTest116 - == closed!
+2021-08-19 12:13:38,173  INFO [main] BaseTest63 - ================= Setting Driver =================
+2021-08-19 12:13:38,174  INFO [main] BaseTest72 - Running without Doker with Headless mode: true	Browser Type: chrome
+2021-08-19 12:13:39,435  INFO [main] BaseTest78 - == opening url
