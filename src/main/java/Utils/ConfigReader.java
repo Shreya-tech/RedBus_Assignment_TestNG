@@ -11,7 +11,7 @@ public class ConfigReader {
 	// Creating variable to connect config.properties file
 	static String path = System.getProperty("user.dir");
 	static File file = new File(path + "\\src\\test\\resources\\properties\\config.properties");
-	
+
 	static FileInputStream fis = null;
 	public static Properties prop = new Properties();
 	static {
